@@ -16,7 +16,7 @@ export const ProductCard = ({
                         {
                             (imagen !== '')
                             ?  <img src={imagen} className="card-img-top" alt={nombre} />
-                            :  <img src={`./minicatalogo/assets/productos/${id}.jpg`} className="card-img-top" alt={nombre} />
+                            :  <img src={`~/assets/productos/${id}.jpg`} className="card-img-top" alt={nombre} />
                         }
                        
                     </div>

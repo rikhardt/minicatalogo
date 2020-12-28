@@ -13,7 +13,7 @@ export const AppRouter = () => {
 
             <div className="container mt-2">
                 <Switch>                    
-                    <Route exact path="/minicatalogo/search" component={Search} />
+                    <Route exact path="/search" component={Search} />
                     <Route exact path="/minicatalogo" component={Products} />
                     <Redirect to="/minicatalogo"/>
                 </Switch>
